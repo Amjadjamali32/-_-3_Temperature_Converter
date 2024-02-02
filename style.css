@@ -1,0 +1,132 @@
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+#mainHeading {
+    text-align: center;
+    font-weight: bold;
+    margin: 16px;
+    padding: 4px;
+    font-size: 2.5rem;
+    color: rgb(27, 27, 200);
+}
+
+.main {
+    width: 54vw;
+    height: 52vh;
+    padding: 8px;
+    margin: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border: 4px solid rgb(0, 93, 155);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.Inputcontainer {
+    width: 33vw;
+    padding: 8px;
+    border: 2px solid rgb(0, 93, 155);
+    color: rgb(0, 93, 155);
+    border-radius: 8px;
+}
+
+.resultValueSection {
+    width: 25vw;
+    padding: 8px;
+    background-color: rgb(0, 93, 155);
+    color: White;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+#result {
+    color: rgb(240, 167, 21);
+}
+
+#inputTemperature {
+    margin: 4px;
+    padding: 4px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    outline: none;
+    border-radius: 8px;
+}
+
+#inputTemperature:focus {
+    border: 2px solid rgb(27, 27, 200);
+}
+
+#Degselection {
+    padding: 6px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: 2px solid rgb(27, 27, 200);
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(29, 25, 252);
+    color: white;
+    outline: none;
+}
+
+#Degselection:focus {
+    border: 3px solid orange;
+}
+
+#convertedDegree {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+#convertedUnit {
+    padding: 4px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.2rem;
+    position: fixed;
+    margin-left: 8.5rem;
+    text-align: center;
+}
+
+#convertToUnit {
+    background-color: rgb(29, 25, 252);
+    color: white;
+    margin: 4px;
+    padding: 8px 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    outline: none;
+}
+
+#convertToUnit:focus {
+    border: 3px solid orange;
+}
+
+.btndiv {
+    margin: 8px;
+}
+
+#btn {
+    padding: 3px 18px;
+    font-size: 1.3rem;
+    margin: 4px 0 0 0;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 93, 155);
+    color: white;
+    border-radius: 25px;
+}
+
+#btn:hover {
+    background-color: rgb(0, 93, 155);
+    opacity: 0.8;
+}
+
+label {
+    font-weight: bold;
+    margin: 0 0 8px 6px;
+    font-size: 1.3rem;
+}
